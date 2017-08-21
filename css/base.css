@@ -1,0 +1,28 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-19 11:03:26
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-20 20:47:20
+*/
+body,ul,li,p,h1,input,form,select,option,img{margin: 0px;padding: 0px;}
+a{
+	color: #7d7d7d;
+	text-decoration: none;
+}
+input,select{outline: none;}
+li{list-style: none;}
+.pr{position: relative;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+.w100{width: 100%;}
+.w570{width: 570px;margin: 70px auto;}
+.w1180{width: 1180px;margin: 0 auto;}
+.w1400{width: 1400px;margin: 0 auto;}

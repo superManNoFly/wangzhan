@@ -1,0 +1,258 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-19 11:03:37
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-20 21:47:28
+*/
+
+.header-top{
+	height: 34px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.header-top > .fl{
+	background: url(../images/xingxing.png)no-repeat 111px 9px,
+	url(../images/shuidi.png)no-repeat 264px 9px,
+	url(../images/shugang.png)no-repeat 354px 10px,
+	url(../images/jiantou.png)no-repeat 400px 14px;	
+}
+.header-top > .fl p{
+	float: left;
+	font-size: 12px;
+}
+.header-top .collection{margin: 10px 0 0 131px;}
+.header-top .area{margin: 10px 0 0 80px;}
+.header-top .qu{margin: 10px 0 0 20px;}
+.header-top .xiaoqu{margin: 10px 0 0 20px;}
+.header-top > .fr{
+	margin: 9px 96px 0 0;
+	background: url(../images/shugang1.png)no-repeat 259px 0px,
+	 url(../images/shugang1.png)no-repeat 344px 0px;
+}
+.header-top > .fr p{
+	float: left;
+	font-size: 12px;
+}
+.header-top > .fr .denglu{
+	margin: 0 11px 0 15px;
+}
+.header-top > .fr .cen{
+	margin-right: 36px;
+}
+.header-top > .fr .denglu a{
+	color: #5da573;
+}
+.cen a{
+	color: #016ad7;
+}
+/* 以上是header-top部分 */
+.header-cen{
+	height: 125px;
+	background: url(../images/banner.png)no-repeat;
+}
+.header-cen img{
+	margin: 27px 0 0 110px;
+}
+.header-cen h1{
+	text-indent:-999px; 
+}
+.header-cen form{
+	margin: 30px 100px 0 0;
+}
+form select{
+	width: 86px;
+	height: 31px;
+	line-height: 31px;
+	font-size: 14px;
+	border: 2px solid #12903f;
+	color: #090909;
+}
+form input[type="text"]{
+	width: 325px;
+	height: 27px;
+	font-size: 14px;
+	color: #cecece;
+	border: 2px solid #12903f;
+	padding-left: 35px;
+	background: url(../images/sousuo.png)no-repeat;
+}
+form > span{
+	position: absolute;
+	right: 67px;
+	top: 6px;
+	width: 52px;
+	height: 21px;
+	padding-left: 11px;
+	border-left: 1px solid #12903f;
+}
+form input[type="submit"]{
+	width: 63px;
+	height: 31px;
+	font-size: 14px;
+	color: white;
+	background: #12903f;
+	border: 2px solid #12903f;
+}
+/* 以上是顶部的中间部分 */
+.header-bot {
+	height: 44px;
+	background: #049039;
+}
+.header-bot ul li{
+	float: left;
+	width: 170px;
+	height: 45px;
+}
+.header-bot ul li img{
+	float: left;
+	margin: 8px 5px 0 30px;
+}
+.header-bot ul .shouye{
+	margin: 0 35px 0 146px;
+}
+.header-bot ul .peisong{
+	background: #05b552;
+}
+.header-bot ul  .mt10{
+	margin-top: 10px;
+}
+.header-bot ul li a{
+	display: inline-block;
+	width: 90px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 16px;
+	color: white;
+}/* 以上是顶部的底部 */
+	/* 以上是顶部所有内容 */
+.content{
+	border-bottom: 1px solid #d8d8d8;
+}
+.content .content-top{
+	height: 36px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.content .content-top > img{
+	margin-top: 9px;
+}
+.content .content-top > p{
+	line-height: 36px;
+	color: #727272;
+}
+/* 以上为内容顶部 */
+.content-nav{
+	border-bottom: 1px solid #d8d8d8;
+	padding: 18px 0;
+}
+.content-nav ul{
+	margin: 7px 0 0 7px;
+}
+.content-nav ul li{
+	float: left;
+	height: 24px;
+	padding-left: 14px;
+	padding-right: 14px;
+	margin-right: 5px;
+	line-height: 24px;
+}
+.content-nav ul .all{
+	background: #248c51;
+	color: #fff;
+}
+.content-nav ul .type{
+	width: 82px;
+	height: 24px;
+	color: #545454;
+	padding-left: 40px;
+	background: url(../images/jingling.png)no-repeat ;
+}
+.content-nav ul .area{
+	width: 82px;
+	height: 24px;
+	color: #545454;
+	padding-left: 40px;
+	background: url(../images/jingling.png)no-repeat 0 -38px;
+}
+.content-nav ul .time{
+	width: 82px;
+	height: 26px;
+	color: #545454;
+	padding-left: 40px;
+	background: url(../images/jingling.png)no-repeat 0 -76px;
+}
+.content-nav ul .shop{
+	width: 109px;
+	height: 26px;
+	color: #545454;
+	padding-left: 40px;
+	background: url(../images/jingling.png)no-repeat 0 -114px;
+}
+.content-nav ul .shoper{
+	background: #ff9000;
+	color: #fff;
+	margin-left: -27px;
+}
+.content-nav ul a{
+	color: #929292;
+}
+/* 以上是导航部分 */
+.content-con .con-left{
+	width: 204px;
+}
+.content-con .con-left img{
+	float: left;
+	margin-top: 12px;
+}
+.con-right{
+	margin: 16px 0 0 14px;
+	width: 961px;
+}
+.con-right ul li{
+	float: left;
+	width: 216px;
+	height: 228px;
+	margin: 0 28px 26px 0;
+} 
+.con-right ul .wanghua{
+	background: url(../images/photo1.png)no-repeat;
+}
+.con-right ul .woerma{
+	background: url(../images/photo2.png)no-repeat;
+}
+.con-right ul .haoyouduo{
+	background: url(../images/photo3.png)no-repeat;
+}
+.con-right ul .jialefu{
+	background: url(../images/photo4.png)no-repeat;
+	margin-right: 0px;
+}
+.con-right ul li > div{
+	margin-top: 163px;
+	background: url(../images/star.png)no-repeat 50px 28px,
+	url(../images/pingfen.png)no-repeat 82px 50px,
+	url(../images/search.png)no-repeat 180px 10px;
+}
+.con-right ul li p{
+	height: 23px;
+	color: #030303;
+	line-height: 23px;
+}
+/* 以上是内容主体区 */
+.con-bottom{
+	margin-left: 418px;
+}
+.con-bottom input[type="submit"]{
+	width: 28px;
+	height: 28px;
+	color: #6d6d6d;
+	border:1px solid #e1e1e1;
+	background: #f0f0f0;
+}
+.con-bottom input[type="button"]{
+	width: 85px;
+	height: 28px;
+	color: #6d6d6d;
+	margin-top:3px;
+	border:1px solid #e1e1e1;
+	background: #f0f0f0;
+	text-align: center;
+}
