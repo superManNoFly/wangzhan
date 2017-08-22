@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2017-08-19 11:03:26
-* @Last Modified by:   Administrator
-* @Last Modified time: 2017-08-20 20:47:20
+* @Last Modified by:   changjiang
+* @Last Modified time: 2017-08-22 19:14:22
 */
 body,ul,li,p,h1,input,form,select,option,img{margin: 0px;padding: 0px;}
 a{
@@ -23,6 +23,7 @@ li{list-style: none;}
 	zoom:1;
 }
 .w100{width: 100%;}
+.w535{width: 535px;margin: 40px auto;}
 .w570{width: 570px;margin: 70px auto;}
 .w1180{width: 1180px;margin: 0 auto;}
 .w1400{width: 1400px;margin: 0 auto;}
